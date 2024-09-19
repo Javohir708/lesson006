@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: url(pattern.svg);
+}
+.body_helper{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, rgba(255,0,0,.8), rgba(255,0,0,0) 50%),
+            linear-gradient(180deg, rgba(0,255,0,.8), rgba(0,255,0,0) 50%),
+            linear-gradient(270deg, rgba(0,0,255,.8), rgba(0,0,255,0) 50%),
+            linear-gradient(360deg, rgba(0, 255, 94, 0.8), rgba(0,0,255,0) 50%);
+}
+.container {
+    width: 400px;
+    height: 300px;
+    margin: 200px auto;
+}
+.glass {
+    background-color: white;
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0.37);
+}
+
+.profile {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    translate: 0 20px;
+}
+.ism {
+    translate: 0 28px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.username {
+    translate: 0 9px;
+    color: dimgrey;
+    font-family: sans-serif;
+    margin-top: 23px;
+    margin-bottom: 30px;
+}
+
+.button {
+   font-size: 14px;
+   background-color: #2481CC;
+   color: #fff;
+   border-radius: 30px;
+   padding: 13px 24px;
+   border: none;
+   font-family: Roboto, sans-serif;
+   text-decoration: none;
+}
+.btn-yuborish{
+    text-align: center;
+}
